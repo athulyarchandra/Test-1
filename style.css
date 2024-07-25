@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#section1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+}
+
+#travel {
+    color: rgb(220, 165, 37);
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+}
+
+#travel span {
+    color: black;
+    font-size: 15px;
+}
+#nav-row h1{
+    color: black;
+    font-size: 70px;
+    font-family: "Lobster", sans-serif;
+
+}
+#enquiry{
+    width: 110px;
+    text-align: center;
+    background-color: rgb(205, 153, 56);
+}
+
+#free {
+    border-radius: 20%;
+}
+
+#footer {
+    background-color: rgb(10, 10, 66);
+}
+
+#footer1 h4 {
+    color: rgb(220, 165, 37);
+}
+
+#footer2 h4 {
+    color: rgb(220, 165, 37);
+}
+
+#icons1 i {
+    color: rgb(12, 203, 171);
+}
+
+#icons2 i {
+    color: rgb(12, 203, 171);
+
+}
+
+#icons3 i {
+    color: rgb(12, 203, 171);
+}
+
+.img-para {
+    width: 400px;
+    height: 500px;
+    font-size: 70px;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 750px;
+    height: 450px;
+
+}
+
+.grimg-1 {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grimg-2 {
+    background-color: rgb(15, 24, 24);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grimg-3 {
+    background-color: rgb(143, 166, 166);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grimg-4 {
+    background-color: rgb(112, 60, 147);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grimg-5 {
+    background-color: rgb(145, 147, 60);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grimg-6 {
+    background-color: rgb(51, 52, 3);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grimg-7 {
+    background-color: rgb(11, 35, 71);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grimg-8 {
+    background-color: rgb(111, 111, 113);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#love h1 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 60px;
+    color: rgb(10, 10, 66);
+}
+
+#love i {
+    font-size: 50px;
+    padding: 15px;
+    color: rgb(220, 165, 37) ;
+
+}
+
+#preminum span {
+    font-family: "Dancing Script", cursive;
+    color: orange;
+    font-size: 30px;
+
+
+}
+#gridd-img{
+    text-align: center;
+}
+
+
+
+
+
+#nav-row .btn{
+    text-align: center;
+    
+}
+
+#pack1 .btn {
+    background-color: rgb(220, 165, 37);
+    border-style: none;
+}
+
+#pack2 .btn {
+    background-color: rgb(220, 165, 37);
+    border-style: none;
+}
+
+#pack3 .btn {
+    background-color: rgb(220, 165, 37);
+    border-style: none;
+}
+
+#pack4 .btn {
+    background-color: rgb(220, 165, 37);
+    border-style: none;
+}
+
+#skip h5{
+    font-size: 70px;
+    color: rgb(243, 235, 235);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Vollkorn SC", serif;
+
+}
+
+#features{
+    margin-top: 500px;
+}
