@@ -87,12 +87,29 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body d-flex flex-column justify-content-around border-bottom">
-                                        <input type="text" placeholder="Name" class="border-none">
-                                        <input type="text" placeholder="Email">
-                                        <input type="text" placeholder="Phone Number">
-                                        <input type="text" placeholder="Your preference">
-                                        <input type="text" placeholder="Number of members">
-                                        <input type="text" placeholder="Message">
+                                        <table class="table">                                         
+                                            <tbody>
+                                              <tr>
+                                                <td>Name</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Email</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Phone Number</td>
+                                              </tr>
+                                              <tr class="dropdown">
+                                                <td class="dropdown-toggle p-3" type="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">Your preference</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Number of members</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Message</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-primary">Submit</button>
@@ -103,9 +120,10 @@
                     </div>
 
                 </div>
-             
+
             </div>
-            <button id="enquiry" type="button" class="btn btn- " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button id="enquiry" type="button" class="btn btn- " data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
                 ENQUIRY
             </button>
         </div>
@@ -115,7 +133,7 @@
         <div class="mt-4" id="">
             <h1>HONEYMOON PACKAGES</h1>
         </div>
-        <div class="d-flex flex-wrap aligh-items-center p-3">
+        <div class="d-flex flex-wrap aligh-items-center justify-content-center p-3" id="honeymoon">
             <div class="text-center p-5 border" id="pack1">
                 <img width="200px" height="200px"
                     src="https://media1.thrillophilia.com/filestore/ugzgu6758b9z89oh46cq2b0q9txg_1608633488_shutterstock_538363867.jpg?w=400&dpr=2"
@@ -129,8 +147,7 @@
             </div>
             <div class="text-center p-5 border " id="pack2">
                 <img width="200px" height="200px"
-                    src="https://i.pinimg.com/736x/be/c2/bc/bec2bc483eab34f7dab761ca9b86e6b6.jpg"
-                    alt="">
+                    src="https://i.pinimg.com/736x/be/c2/bc/bec2bc483eab34f7dab761ca9b86e6b6.jpg" alt="">
                 <h6>Kerala Honeymoon <br>Packages</h6>
                 <p>(04 Nights / 05 Days)</p>
                 <P>Lorem consectetur,N <br> maxime necessitatibus <br>cumque! Quis bland</P>
@@ -139,8 +156,7 @@
             </div>
             <div class="text-center p-5 border" id="pack3">
                 <img width="200px" height="200px"
-                    src="https://th.bing.com/th/id/OIP.gF7vdqfJQGwZe3nVHFT8rQHaF7?rs=1&pid=ImgDetMain"
-                    alt="">
+                    src="https://th.bing.com/th/id/OIP.gF7vdqfJQGwZe3nVHFT8rQHaF7?rs=1&pid=ImgDetMain" alt="">
                 <h6>Kerala Honeymoon <br>Packages</h6>
                 <p>(04 Nights / 05 Days)</p>
                 <P>Lorem consectetur,N <br> maxime necessitatibus <br>cumque! Quis bland</P>
@@ -149,8 +165,7 @@
             </div>
             <div class="text-center p-5 border" id="pack3">
                 <img width="200px" height="200px"
-                    src="https://twodrifters.us/wp-content/uploads/2019/01/shutterstock_795542197.jpg"
-                    alt="">
+                    src="https://twodrifters.us/wp-content/uploads/2019/01/shutterstock_795542197.jpg" alt="">
                 <h6>Kerala Honeymoon <br>Packages</h6>
                 <p>(04 Nights / 05 Days)</p>
                 <P>Lorem consectetur,N <br> maxime necessitatibus <br>cumque! Quis bland</P>
@@ -221,7 +236,7 @@
 
     <div class="row mt-3 d-flex flex-wrap justify-content-around aligh-items-center" id="gridd-img">
         <div class="col-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ItF69OVkyqI?si=-4SEHBWAHcWvDK_u"
+            <iframe width="560" height="710" src="https://www.youtube.com/embed/ItF69OVkyqI?si=-4SEHBWAHcWvDK_u"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,9 +275,58 @@
 
 
     <!-- Hotels -->
+    <div id="hotels">
+        <h2 class="package-main">North Indian Packages</h2>
+        <div class="package d-flex flex-wrap justify-content-around mt-5">
+
+            <div class="card-2">
+                <img width="100%" height="100%" src="https://external-preview.redd.it/WVMpVoje1PteKkBLPglLeVMiGyPJGRpoc3LqMOoedIo.jpg?auto=webp&s=01e95e61fcfa462f68dd07bb944dcc7b675a87f2" alt="no img">
+                <div class="overlay">
+                    <h1>Jammu&Kashmir</h1>
+                    <p>Rs.22,000 per person</p>
+                    <a href="" class="btn-card">book now</a>
+                </div>
+
+            </div>
+
+            <div class="card-2">
+                <img width="100%" height="100%" src="https://images.lonelyplanetitalia.it/uploads/gettyrf-827065008?q=80&p=slider&s=5595667a6e1e401506daa05413bd405b"
+                    alt="no img">
+                <div class="overlay">
+                    <h1>Varanasi</h1>
+                    <p>Rs.9,000 per person</p>
+                    <a href="" class="btn-card">book now</a>
+                </div>
+
+            </div>
+
+            <div class="card-2">
+                <img width="100%" height="100%"
+                    src="https://pickyourtrail.com/blog/wp-content/uploads/2020/06/caravan-desert-safari-dune-camels-ride-more-rajasthan-camel.jpg" alt="no img">
+                <div class="overlay">
+                    <h1>RAJASTHAN</h1>
+                    <p>Rs.12,000 per person</p>
+                    <a href="" class="btn-card">book now</a>
+                </div>
+
+            </div>
+
+            <div class="card-2">
+                <img width="100%" height="100%"
+                    src="https://th.bing.com/th/id/OIP.QsRlTfdUZzKwIhneHo8FdwHaE8?rs=1&pid=ImgDetMain" alt="no img">
+                <div class="overlay">
+                    <h1>PUNJAB</h1>
+                    <p>Rs.12,000 per person</p>
+                    <a href="" class="btn-card">book now</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 
     <div id="features">
-        <div id="preminum" class="text-center">
+        <div id="preminum" class="text-center mt-5">
             <h1>OUR PREMIUM FEATURES</h1>
             <span>we will made your dream come true</span>
         </div>

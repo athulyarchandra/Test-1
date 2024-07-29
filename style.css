@@ -176,11 +176,6 @@
 #gridd-img{
     text-align: center;
 }
-
-
-
-
-
 #nav-row .btn{
     text-align: center;
     
@@ -189,21 +184,40 @@
 #pack1 .btn {
     background-color: rgb(220, 165, 37);
     border-style: none;
+    transition: all 0.3s;
+}
+#pack1:hover{
+    transform: scale(1.05);
 }
 
 #pack2 .btn {
     background-color: rgb(220, 165, 37);
     border-style: none;
+    transition: all 0.3s;
+
+}
+#pack2:hover{
+    transform: scale(1.05);
 }
 
 #pack3 .btn {
     background-color: rgb(220, 165, 37);
     border-style: none;
+    transition: all 0.3s;
+
+}
+#pack3:hover{
+    transform: scale(1.05);
 }
 
 #pack4 .btn {
     background-color: rgb(220, 165, 37);
     border-style: none;
+    transition: all 0.3s;
+
+}
+#pack4:hover{
+    transform: scale(1.05);
 }
 
 #skip h5{
@@ -214,6 +228,69 @@
 
 }
 
-#features{
-    margin-top: 500px;
+.package-main{
+    text-align: center;
+    
+    font-family: "Allura", cursive;
+    margin: 50px 0px;
+    font-weight: 800;
+}
+.package{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: #fffefed0;
+    /* margin-top: 110px; */
+}
+.card-2{
+    width: 20em;
+    height: 25em;
+    position: relative;
+    margin: 0 1em;
+    /* background: url('./img/Ghats-Varanasi-Ganges-River-India-Uttar-Pradesh.webp') center; */
+    background-size: cover;
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+.card-2 .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 123, 0, 0.8);
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 18px;
+}
+.card-2:hover .overlay {opacity: 1;}
+.card-2 .btn-card{
+       padding: 0.6em 1.3em;
+       text-decoration: none;
+       color: #fff;
+       border: 2px #fff solid;
+       letter-spacing: 1px;
+       border-radius: 8px;
+}
+.card-2 .btn-card:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.card-2 .btn-card, .card-2 h1
+{
+    transition: 0.3s;
+    transform: translateY(-20px);
+}
+.card-2:hover .btn-card, .card-2:hover h1
+{
+    transform: translateY(0);
+}
+#hotels h2{
+    color: black;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
